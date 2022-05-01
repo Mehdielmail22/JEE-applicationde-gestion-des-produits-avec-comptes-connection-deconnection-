@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>tst</display-name>
+  <servlet>
+<servlet-name>Test</servlet-name>
+<servlet-class>Test</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Test</servlet-name>
+<url-pattern>/controlleur</url-pattern>
+</servlet-mapping>
+  <servlet>
+<servlet-name>Search</servlet-name>
+<servlet-class>Search</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Search</servlet-name>
+<url-pattern>/Search</url-pattern>
+</servlet-mapping>
+  <servlet>
+<servlet-name>Connexion</servlet-name>
+<servlet-class>Connexion2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Connexion</servlet-name>
+<url-pattern>/Connexion</url-pattern>
+</servlet-mapping>
+  <servlet>
+<servlet-name>Register</servlet-name>
+<servlet-class>Register</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Register</servlet-name>
+<url-pattern>/Register</url-pattern>
+</servlet-mapping>
+  <servlet>
+<servlet-name>Edit</servlet-name>
+<servlet-class>Edit</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Edit</servlet-name>
+<url-pattern>/Edit</url-pattern>
+</servlet-mapping>
+  <servlet>
+<servlet-name>Deconextion</servlet-name>
+<servlet-class>Deconextion</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Deconextion</servlet-name>
+<url-pattern>/Deconextion</url-pattern>
+</servlet-mapping>
+</web-app>
